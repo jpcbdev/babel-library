@@ -20,7 +20,7 @@ A manage virtual books storage
 * Create .env file if not exist with environment variables ( inside service folder ): 
 ```bash
 # SERVICE 
-SERVICE_NAME="Babylon library"
+SERVICE_NAME="Babel library"
 SERVICE_PORT=3900
 JWT_SECRET_TOKEN="SECRET_HERE"
 HTTP_REQUEST_TIMEOUT=15000

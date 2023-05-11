@@ -1,5 +1,3 @@
-import { DataSourceOptions } from "typeorm";
-
 export const NODE_ENV = process.env.NODE_ENV ?? 'development';
 export const SERVICE_NAME = process.env.SERVICE_NAME ?? '';
 export const SERVICE_PORT = Number.parseInt(process.env.SERVICE_PORT) ?? 3000;
