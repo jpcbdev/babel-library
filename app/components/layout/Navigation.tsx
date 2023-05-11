@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Fragment, useEffect } from 'react';
+import { useEffect } from 'react';
 
 import { useRouter } from 'next/router';
 
@@ -10,8 +10,7 @@ export const Navigation = () => {
 
   useEffect(() => { }, []);
 
-  return <Fragment>
-
+  return <>
     <nav className='navbar navbar-expand-lg'>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigationNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,5 +48,5 @@ export const Navigation = () => {
 
     </nav>
 
-  </Fragment>
+  </>
 };
